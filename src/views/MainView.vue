@@ -1,5 +1,5 @@
 <script>
-import AboutView from "@/views/AboutView.vue";
+import AboutView from "@/views/About/AboutView.vue";
 import TeamView from "@/views/TeamView.vue";
 import TimetableView from "@/views/TimetableView.vue";
 import PriceView from "@/views/PriceView.vue";

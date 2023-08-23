@@ -1,7 +1,7 @@
 <script>
   import NavComponent from "@/components/HeaderComponent/NavComponent.vue";
-
   export default {
+    name: "HeaderComponent",
     components: {
       NavComponent,
     }
@@ -11,7 +11,7 @@
 <template>
   <section class="header">
     <div class="header__logo">
-      <img alt="Dragon Arrow" src="../../assets/logo.png">
+      <a href="/"> <img alt="Dragon Arrow" src="../../assets/logo.png"> </a>
       <h1>Клуб стрельбы из лука</h1>
     </div>
     <p class="header__quote">Стрельба из лука - отличное средство для тех, кто ищет гармонии тела и духа!</p>
@@ -21,7 +21,6 @@
 
 <style scoped lang="scss">
   .header {
-    //background-color: gray;
     &__logo {
       padding: 10px 10px;
       display: flex;
@@ -36,11 +35,11 @@
         text-transform: uppercase;
         text-align: center;
         font-size: 40px;
-        font-weight: 500;
+        font-weight: 600;
       }
     }
     &__quote {
-      margin-right: 10px;
+      padding: 10px;
       text-align: end;
       color: #002cff;
       font-style: italic;

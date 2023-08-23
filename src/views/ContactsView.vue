@@ -3,7 +3,10 @@
 </script>
 
 <template>
-<div>Контакты</div>
+  <section id="#contacts" class="contacts">
+    <div>Контакты</div>
+  </section>
+
 </template>
 
 <style scoped lang="scss">
