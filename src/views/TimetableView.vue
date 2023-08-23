@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <div>расписание</div>
+  <section id="#timetable" class="timetable">
+    <div>расписание</div>
+  </section>
+
 </template>
 
 <style scoped lang="scss">
