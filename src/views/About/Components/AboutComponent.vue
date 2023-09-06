@@ -21,7 +21,7 @@ export default {
 </script>
 
 <template>
-  <section class="we container">
+  <section class="we">
     <div class="we__text">
       <p> Мечтали о стрельбе из лука с детства? Или вдохновляют лучники из мира фэнтези? А может, хотите освоить новый вид спорта? Тогда клуб Dragon Arrow – это то, что вам нужно!</p>
       <br/>
@@ -43,6 +43,7 @@ export default {
 .we {
   display: flex;
   padding: 10px;
+  margin-bottom: 5px;
   border-top: 2px solid #002cff;
   border-bottom: 2px solid #002cff;
   border-radius: 25px;

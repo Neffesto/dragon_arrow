@@ -208,7 +208,7 @@
 </script>
 
 <template>
-  <section class="gallery container">
+  <section class="gallery">
     <div class="gallery__wrapper">
       <img v-bind:class="{imgHideOne: oneActive }" src="../../../gallery/jpeg/1.jpg" alt="image">
       <img v-bind:class="{imgHideTwo: twoActive }" src="../../../gallery/jpeg/2.jpg" alt="image">
@@ -243,8 +243,8 @@
 .gallery {
   padding: 10px;
   margin-bottom: 5px;
-  border-top: 2px solid #002cff;
-  border-bottom: 2px solid #002cff;
+  border-right: 2px solid #002cff;
+  border-left: 2px solid #002cff;
   border-radius: 25px;
   &__wrapper {
     //max-width: calc(100vw - 20px);
@@ -257,7 +257,7 @@
 }
 img {
   border-radius: 25px;
-  height: calc(100vh - 276px);
+  height: calc(100vh - 270px);
 }
 .imgHideOne, .imgHideTwo, .imgHideThree {
   display: none;
