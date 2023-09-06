@@ -34,7 +34,7 @@
         color: #002cff;
         text-transform: uppercase;
         text-align: center;
-        font-size: 40px;
+        font-size: 46px;
         font-weight: 600;
       }
     }
